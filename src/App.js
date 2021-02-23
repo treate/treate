@@ -1,15 +1,11 @@
-import conceptImage from './assets/images/treate_concept.svg';
+import horiLockup from './assets/images/treate_horizontal_lockup.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={conceptImage} className="App-logo" alt="logo" />
-        <p>
-          Technological Creations (<code>Treate</code>)<br></br>
-          <small>Connect. Coach. Create.</small>
-        </p>
+        <img src={horiLockup} className="App-logo" width="70%" alt="Treate" />
       </header>
     </div>
   );
