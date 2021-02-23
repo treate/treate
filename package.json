@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Treate - Connect. Coach. Create.",
-  "author": "Emmanuel Joseph <emmanueljet774@gmail.com>",
-  "license": "Apache-2.0",
   "repository": "github:treate/treate",
-  "homepage": "https://github.com/treate/treate",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
