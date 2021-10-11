@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="http://schema.org/Organization">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXLTTGJM6Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-YXLTTGJM6Z');
-    </script>
-
     <meta charset="utf-8" />
     <meta name="title" content="Treate">
     <meta name="theme-color" content="#77449A" />
@@ -23,20 +13,20 @@
     
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="canonical" href="https://treate-ng.web.app" />
+    <link rel="canonical" href="https://treate.ng" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/static/media/icon/icon192.png" />
     
-    <title>Treate</title>
+    <title>Treate - Connect. Coach. Create.</title>
 
     <!-- Google -->
-    <link itemprop="url" href="https://treate-ng.web.app" />
+    <link itemprop="url" href="https://treate.ng" />
     <meta itemprop="name" content="Treate">
     <meta itemprop="description" content="Connect. Coach. Create.">
     <meta itemprop="image" content="%PUBLIC_URL%/static/media/brand/logo512.png">
 
     <!-- Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://treate-ng.web.app" />
+    <meta property="og:url" content="https://treate.ng" />
     <meta property="og:title" content="Treate" />
     <meta property="og:description" content="Connect. Coach. Create." />
     <meta property="og:image" content="%PUBLIC_URL%/static/media/brand/logo512.png" />
@@ -47,7 +37,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://treate-ng.web.app">
+    <meta property="twitter:url" content="https://treate.ng">
     <meta name="twitter:creator" content="@AeternityEkiti">
     <meta name="twitter:title" content="Treate">
     <meta name="twitter:description" content="Connect. Coach. Create.">
@@ -66,13 +56,13 @@
         "legalName": "Treate Innovative Solutions Limited",
         "slogan": "Connect. Coach. Create.",
         "description": "Connect. Coach. Create.",
-        "url": "https://treate-ng.web.app",
+        "url": "https://treate.ng",
         "telephone": "+2348138241391",
         "email": "info@treate.ng",
         "logo": {
           "@type": "ImageObject",
           "name": "Treate Brand Logo",
-          "contentUrl": "https://treate-ng.web.app/static/media/brand/treate_logo.png",
+          "contentUrl": "https://treate.ng/static/media/brand/treate_logo.png",
           "contentSize": "47.75KB",
           "height": "1170",
           "width": "1383"
@@ -145,20 +135,24 @@
       }
     </script>
 
+    <!-- Firebase -->
+    <script defer src="/__/firebase/8.2.9/firebase-app.js"></script>
+    <script defer src="/__/firebase/8.2.9/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/8.2.9/firebase-performance.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="treate"></div>
 
-    <!-- Firebase -->
-    <script src="/__/firebase/8.2.9/firebase-app.js"></script>
-    <script src="/__/firebase/8.2.9/firebase-analytics.js"></script>
-    <script src="/__/firebase/8.2.9/firebase-performance.js"></script>
-    <script src="/__/firebase/init.js"></script>
-
+    <!-- Firebase Scripts -->
     <script>
-      var perf = firebase.performance();
+      document.addEventListener('DOMContentLoaded', function() {
+        firebase.analytics();
+        firebase.performance();
+      });
     </script>
   </body>
 </html>
