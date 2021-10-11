@@ -9,4 +9,6 @@ User-agent: Googlebot-Image
 Disallow:
 
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://treate.ng/sitemap.xml

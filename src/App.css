@@ -30,7 +30,7 @@
   margin-top: -10px;
 }
 
-.App-link {
+.App-link, .App-link:hover, .App-link:active {
   font-size: large;
   color: #313092;
   text-decoration: overline;

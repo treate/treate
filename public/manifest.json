@@ -1,24 +1,31 @@
 {
   "short_name": "Treate",
-  "name": "Technological Creations",
-  "description": "Connect. Coach. Create",
-  "start_url": ".",
+  "name": "Treate - Connect. Coach. Create.",
+  "description": "Treate is a company aimed at solving problems and coaching students with blockchain tools.",
+  "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait",
+  "status_bar": "#313092",
   "theme_color": "#77449A",
   "background_color": "#210C3E",
+  "categories": [
+    "blockchain",
+    "academy",
+    "agency"
+  ],
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "256x256",
-      "type": "image/x-icon"
+      "src": "/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "256x256"
     },
     {
-      "src": "static/media/icon/icon192.png",
+      "src": "/static/media/icon/icon192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "static/media/icon/icon512.png",
+      "src": "/static/media/icon/icon512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
