@@ -12,13 +12,14 @@
     </script>
 
     <meta charset="utf-8" />
-    <meta name="title" content="Treate - Connect. Coach. Create.">
+    <meta name="title" content="Treate - Connect. Coach. Create." />
     <meta name="theme-color" content="#77449A" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="dns-prefetch" href="www.googletagmanager.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://wati-integration-service.clare.ai" />
+    <link rel="dns-prefetch" href="www.googletagmanager.com" />
     
-    <meta name="description" content="Treate is a company aimed at solving problems and coaching students with blockchain tools.">
+    <meta name="description" content="Treate is a company aimed at solving problems and coaching students with blockchain tools." />
     <meta name="keywords" content="treate, connect. coach. create., connect, coach, create, technological creations, nigeria students, students, blockchain, technology, nigeria, emmanueljet, emmanuel joseph, emmanuel joseph(jet)"/>
     
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -31,9 +32,9 @@
     <!-- Google -->
     <meta name="google-site-verification" content="VadAOdIQGuTAWRb4c0ZPW4--J7nGv3Yv2xEFRavHayk" />
     <link itemprop="url" href="https://treate.ng"/>
-    <meta itemprop="name" content="Treate - Connect. Coach. Create.">
-    <meta itemprop="description" content="Treate is a company aimed at solving problems and coaching students with blockchain tools.">
-    <meta itemprop="image" content="%PUBLIC_URL%/static/media/brand/logo512.png">
+    <meta itemprop="name" content="Treate - Connect. Coach. Create." />
+    <meta itemprop="description" content="Treate is a company aimed at solving problems and coaching students with blockchain tools." />
+    <meta itemprop="image" content="%PUBLIC_URL%/static/media/brand/logo512.png" />
 
     <!-- Facebook -->
 		<meta name="facebook-domain-verification" content="cku3o042ylwcinvl306c1h9v3bblll" />
@@ -44,19 +45,19 @@
     <meta property="og:image" content="%PUBLIC_URL%/static/media/brand/logo512.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content="Treate" />
-    <meta property="og:image:width" content="512">
-    <meta property="og:image:height" content="512">
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://treate.ng">
-    <meta name="twitter:creator" content="@treate_ng">
-    <meta name="twitter:title" content="Treate - Connect. Coach. Create.">
-    <meta name="twitter:description" content="Treate is a company aimed at solving problems and coaching students with blockchain tools.">
-    <meta name="twitter:image:src" content="%PUBLIC_URL%/static/media/brand/logo512.png">
-    <meta name="twitter:image:alt" content="Treate">
-    <meta property="twitter:image:width" content="512">
-    <meta property="twitter:image:height" content="512">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://treate.ng" />
+    <meta name="twitter:creator" content="@treate_ng" />
+    <meta name="twitter:title" content="Treate - Connect. Coach. Create." />
+    <meta name="twitter:description" content="Treate is a company aimed at solving problems and coaching students with blockchain tools." />
+    <meta name="twitter:image:src" content="%PUBLIC_URL%/static/media/brand/logo512.png" />
+    <meta name="twitter:image:alt" content="Treate" />
+    <meta property="twitter:image:width" content="512" />
+    <meta property="twitter:image:height" content="512" />
 
     <!-- Schema -->
     <script type="application/ld+json">
@@ -74,12 +75,13 @@
         "logo": {
           "@type": "ImageObject",
           "name": "Treate Brand Logo",
-          "contentUrl": "https://treate.ng/static/media/brand/treate_logo.png",
+          "contentUrl": "https://treate.ng/static/media/brand/logo512.png",
           "contentSize": "47.75KB",
-          "height": "1170",
-          "width": "1383"
+          "height": "512",
+          "width": "512"
         },
         "sameAs": [
+          "https://wa.me/message/P5W32ZSX7WLZF1",
           "https://linkedin.com/company/treate",
           "https://github.com/treate",
           "https://twitter.com/treate_ng",
@@ -160,5 +162,41 @@
         firebase.performance();
       });
     </script>
+		<script>
+			var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?91051';
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = url;
+			var options = {
+				"enabled":true,
+				"chatButtonSetting":{
+					"backgroundColor":"#4dc247",
+					"ctaText":"",
+					"borderRadius":"25",
+					"marginLeft":"0",
+					"marginBottom":"50",
+					"marginRight":"50",
+					"position":"right"
+				},
+				"brandSetting":{
+					"brandName":"Treate",
+					"brandSubTitle":"Connect. Coach. Create.",
+					"brandImg":"https://treate.ng/static/media/brand/logo512.png",
+					"welcomeText":"Hi there!\nHow can we help you?",
+					"messageText":"Hello, I have a question about {{page_link}}",
+					"backgroundColor":"#0a5f54",
+					"ctaText":"Start Chat",
+					"borderRadius":"25",
+					"autoShow":false,
+					"phoneNumber":"2348138241391"
+				}
+			};
+			s.onload = function() {
+				CreateWhatsappChatWidget(options);
+			};
+			var x = document.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+		</script>
   </body>
 </html>
