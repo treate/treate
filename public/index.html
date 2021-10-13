@@ -1,5 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+	version="HTML+RDFa 1.1"
+	xmlns="http://www.w3.org/1999/xhtml"
+	lang="en"
+	xmlns:og="http://ogp.me/ns#"
+	xmlns:fb="http://www.facebook.com/2008/fbml"
+	xmlns:pto="http://www.productontology.org/id/"
+>
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189769979-1"></script>
@@ -19,9 +26,9 @@
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#77449A" />
 		<link rel="canonical" href="https://treate.ng" />
-		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/static/media/icon/icon192.png" />
+		<link rel="icon" href="https://treate.ng/favicon.ico" />
+    <link rel="manifest" href="https://treate.ng/manifest.json" />
+    <link rel="apple-touch-icon" href="https://treate.ng/static/media/icon/icon192.png" />
     
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link rel="preconnect" href="https://wati-integration-service.clare.ai" />
@@ -43,15 +50,20 @@
     <!-- Facebook -->
 		<meta name="facebook-domain-verification" content="cku3o042ylwcinvl306c1h9v3bblll" />
 		<meta property="fb:app_id" content="1459390834461910" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="pto:Software_company" />
     <meta property="og:url" content="https://treate.ng" />
     <meta property="og:title" content="Treate - Connect. Coach. Create." />
     <meta property="og:description" content="Treate is a company aimed at solving problems and coaching students with blockchain tools." />
-    <meta property="og:image" content="https://treate.ng/static/media/brand/treate_banner.png" />
+    <meta property="og:image" content="https://treate.ng/static/media/brand/logo512.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content="Treate" />
-    <meta property="og:image:width" content="3000" />
-    <meta property="og:image:height" content="1570" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+		<meta property="og:image" content="https://treate.ng/static/media/brand/treate_banner.png" />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:alt" content="Treate Banner" />
+		<meta property="og:image:width" content="3000" />
+		<meta property="og:image:height" content="1570" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -69,15 +81,20 @@
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
-        "@type": "Organization",
-        "name": "Treate",
-        "alternateName": "Treate - Connect. Coach. Create.",
-        "legalName": "Treate Innovative Solutions Limited",
-        "slogan": "Connect. Coach. Create.",
-        "description": "Treate is a company aimed at solving problems and coaching students with blockchain tools.",
-        "url": "https://treate.ng",
+        "@type": "Corporation",
+				"additionalType": "http://www.productontology.org/id/Software_company",
+				"leiCode": "RC1788851",
+				"taxID": "24017135-0001",
+				"vatID": "AEV100021788851",
+				"alternateName": "Treate",
+				"email": "info@treate.ng",
+				"url": "https://treate.ng",
+				"foundingDate": "24-11-2020",
         "telephone": "+2348138241391",
-        "email": "info@treate.ng",
+				"slogan": "Connect. Coach. Create.",
+        "name": "Treate - Connect. Coach. Create.",
+        "legalName": "Treate Innovative Solutions Limited",
+        "description": "Treate is a company aimed at solving problems and coaching students with blockchain tools.",
         "logo": {
           "@type": "ImageObject",
           "name": "Treate Logo",
@@ -86,6 +103,11 @@
           "height": "512",
           "width": "512"
         },
+				"image": [
+					"https://treate.ng/static/media/brand/logo512.png",
+					"https://treate.ng/static/media/brand/treate_logo.png",
+					"https://treate.ng/static/media/brand/treate_banner.png"
+				],
         "sameAs": [
           "https://wa.me/message/P5W32ZSX7WLZF1",
           "https://linkedin.com/company/treate",
@@ -93,9 +115,10 @@
           "https://twitter.com/treate_ng",
           "https://instagram.com/treate_ng",
           "https://facebook.com/treateNG",
-          "https://youtube.com/channel/UC7Is3ZK0nSwqtgCXP9oBnWA"
+          "https://youtube.com/channel/UC7Is3ZK0nSwqtgCXP9oBnWA",
+					"https://en.wikipedia.org/wiki/Software_company"
         ],
-        "location": {
+        "address": {
           "@type": "PostalAddress",
           "streetAddress": "Beside Heritage Bank, EKSU",
           "addressLocality": "Ado-Ekiti",
@@ -106,42 +129,27 @@
         "contactPoint": [
           {
             "@type": "ContactPoint",
+						"areaServed": "NG",
+            "availableLanguage": "en",
+						"email": "info@treate.ng",
             "telephone": "+2348138241391",
-            "email": "info@treate.ng",
-            "contactType": "customer service",
-            "areaServed": "NG",
-            "availableLanguage": "en"
-          },
-          {
-            "@type": "ContactPoint",
-            "email": "dev@treate.ng",
-            "contactType": "technical support",
-            "areaServed": "NG",
-            "availableLanguage": "en"
-          },
-          {
-            "@type": "ContactPoint",
-            "email": "support@treate.ng",
-            "contactType": "emergency",
-            "areaServed": "NG",
-            "availableLanguage": "en"
+            "contactType": "customer service"
           }
         ],
         "founder": {
           "@type": "Person",
+					"alternateName": "JET",
+					"familyName": "Joseph",
           "givenName": "Emmanuel",
           "additionalName": "Temitayo",
-          "familyName": "Joseph",
-          "alternateName": "JET",
           "name": "Emmanuel Joseph(JET)",
-          "jobTitle": "Web Developer",
-          "description": "A Web and Blockchain Developer in love with Community Building.",
-          "url": "https://emmanueljet.me",
-          "telephone": "(234) 812-841-1482",
-          "email": "mailto:emmanuel.joseph@treate.ng",
-          "image": "https://emmanueljet.github.io/emmanueljet/assets/img/jet.png",
+          "telephone": "+2348128411482",
+					"email": "emmanuel.joseph@treate.ng",
+          "jobTitle": "Cheif Executive Officer",
+					"image": "https://treate.ng/static/media/persons/emmanuel_joseph.jpg",
+          "description": "Blockchain Enthusiast as a Web Developer and Community Builder.",
           "sameAs": [
-            "https://linkedin.com/in/emmanueljet",
+            "https://linkedin.com/in/emmanuelJet",
             "https://github.com/emmanuelJet",
             "https://twitter.com/emmanuelJet_"
           ]

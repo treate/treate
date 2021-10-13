@@ -10,7 +10,7 @@ function App() {
           className="App-logo"
           alt="Treate - Connect. Coach. Create."
         />
-        <h1 className="App-title">Treate</h1>
+        <h1 className="App-title">TREATE INNOVATIVE SOLUTIONS LIMITED</h1>
         <p className="App-description">Connect. Coach. Create.</p>
         <a
           className="App-link"
