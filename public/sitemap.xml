@@ -5,7 +5,9 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://treate.ng</loc>
-    <lastmod>2021-09-28T21:21:11+00:00</lastmod>
+    <loc>https://treate.ng/</loc>
+    <lastmod>2021-10-17T02:57:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
 </urlset>
