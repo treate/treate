@@ -8,4 +8,4 @@ Disallow:
 User-agent: *
 Allow: /
 
-Sitemap: https://treate.ng/sitemap.xml
+Sitemap: https://treate.ng/sitemap/sitemap.xml
